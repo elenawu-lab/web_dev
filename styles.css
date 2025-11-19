@@ -1,0 +1,23 @@
+p{
+    font-family: "UnifrakturCook", "times new roman";
+    font-weight: 700;
+    font-style: normal;
+    margin: 5px;
+}
+button{
+    padding: 20px;
+    margin: 50px;
+}
+img{
+    width: 150px;
+}
+#content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#blah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
