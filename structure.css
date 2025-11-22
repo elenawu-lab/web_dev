@@ -7,13 +7,11 @@ body{
     width: 25%;
     padding: 15px;
     margin: 15px;
-    display: grid;
-    grid-template-columns: 1fr -3fr;
 }
 #first{
     margin: 15px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 #third{
     margin: 15px;
@@ -24,8 +22,6 @@ body{
     width: 25%;
     padding: 15px;
     margin: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 h1{
     text-align: center;
