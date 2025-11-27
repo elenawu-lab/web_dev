@@ -4,10 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Unicorns</title>
+    <script>
+        images = [""]
+            index = 0
+            function change(){
+                document.getElementById("four").src = images[index]
+                index +=1
+                if(index){
+                    index = 0
+                }
+            }
+    </script>
 </head>
 <body>
-    <h1>Unicorns</h1>
+    <h1 id="hidimg" alt="faces" onmouseover={change()}>Unicorns</h1>
     <p>Unicorns are the best animal ever to exist in the planet earth and universe. I want to bawl because I want to see one. Someday I belive I will see one magestically prancing around, it's mane sparkly and with thick eyelashes. They do truly exist in real life and if you say otherwise I will throw a tantrum.</p>
+    <ul>
+        <li>Sparkly</li>
+        <li>Magestic</li>
+        <li>Perfect</li>
+        <li>Magical</li>
+        <li>Amazing</li>
+        <li>The Best</li>
+    </ul>
+    <p>Those are things about unicorns. Their smooth, perfect hoofs are crazy. Like, how do they do it. Horses don't have that sparkly hoofs unless they get a makeover. Unicorn are just naturally perfect. That is why Santa should give me one as a gift. I would give it water and buy apples with my own money for it. I wuld brush them everyday and clean up any stray hair. I would love them very much. Please give me a unicorn.</p>
 </body>
 </html>
