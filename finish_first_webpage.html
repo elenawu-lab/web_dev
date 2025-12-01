@@ -18,16 +18,18 @@
                     document.getElementById("ton").innerHTML = "Open"
                 }
             }
-            images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUkR9fH047fnjOtSzM4onkry7Dns3UlHFxJg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG8CwdtnXfPigZklWaah49N2w8nyoW8fwTVA&s"]
-            index = 0
+            let images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUkR9fH047fnjOtSzM4onkry7Dns3UlHFxJg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG8CwdtnXfPigZklWaah49N2w8nyoW8fwTVA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6sCT2G3ticuw3PZKxcUwuZMIziWJFpc9Rtg&s"]
+            let counter = 0
             function change(){
-                document.getElementById("four").src = images[index]
-                index += 1
-                if(index){
-                    index = 0
+                if(counter < images.length){
+                    document.getElementById("four").src = images[counter]
+                    counter+= 1
+                }else{
+                    counter = 0
+                    document.getElementById("four").src = images[counter]
                 }
             }
-        </script>
+            </script>
     </head>
     <body>
         <h1>Lobsters</h1>
