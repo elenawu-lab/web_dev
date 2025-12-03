@@ -12,7 +12,7 @@ def home():
 
 @app.route("/contact")
 def contact():
-    return "<p>Don't contact me. I do not want to talk to you.</p>"
+    return render_template("contact.html")
 
 @app.route("/<name>")
 def user(name):
@@ -24,8 +24,8 @@ if __name__ == "__main__":
 # What does Flask do?
     # We are accessing the flask library that allows us to develop multi page websites.
 # What are the steps to setting up a Flask project?
-    # You have to set up a folder and a python file in the file. 
+    # You have to set up a folder and a python file in the folder. You import and name the app and then do some defs.
 # How can you reference subpages on your Flask project? (Meaning the difference between the home page and a personal profile)
     # Home just has a slash and the other parts have a / and something else
 # What are templates?
-    # They are outside html that you can import into tutorial.py that will then show up on your webpage.
+    # They are outside html that you can import into tutorial.py that will then show up on your webpage. They are the cookie cutters you can create.
